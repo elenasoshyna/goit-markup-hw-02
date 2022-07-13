@@ -1,0 +1,96 @@
+/* title COLORS 212121*/
+/* text COLORS 757575*/
+/* accent COLORS 2196F3*/
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color-main: #2f303a;
+  --background-color-secondary: #f5f4fa;
+}
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: var(--accent-color);
+}
+.logo-head {
+  color: var(--title-text-color);
+}
+/* Site Nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts-nav a {
+  color: var(--primary-text-color);
+}
+.contacts-nav a:hover,
+.contacts-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+.section-hero {
+  background-color: var(--background-color-main);
+}
+.hero-title {
+  color: #ffffff;
+}
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.button:hover {
+  background-color: #188ce8;
+}
+/* Особенности */
+.features-title {
+  color: var(--title-text-color);
+}
+/* Чем мы занимаемся */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Наша команда */
+.team-member {
+  color: var(--title-text-color);
+}
+/* Футер */
+.footer {
+  background-color: var(--background-color-main);
+}
+.logo-footer {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
+}
+.contacts-footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* -----------Портфолио------------- */
+
+.filter button {
+  color: var(--title-text-color);
+  background-color: var(--background-color-secondary);
+}
+.filter button:hover,
+.filter button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
